@@ -1,0 +1,13 @@
+#include<stdio.h>
+void sum()
+{
+    int x=50;
+    int y=10;
+    int s=x+y;
+    printf("The sum:%d",s);
+}
+int main()
+{
+    sum();
+    return 0;
+}
