@@ -1,0 +1,23 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char str[100], sstr[100];
+    int n;
+    printf("\nEnter the string:");
+    scanf("%s", &str);
+    printf("\nEnter the number of char to copy from the end:");
+    scanf("%d",&n);
+    int i=0,j=0;
+    j=strlen(str)-n;
+    while(str[j]!='\0')
+    {
+        sstr[i]=str[j];
+        i++;
+        j++;
+    }
+    sstr[i]='\0';
+    printf("\nThe substring is:");
+    puts(sstr);
+    return 0;
+}
