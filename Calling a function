@@ -1,0 +1,11 @@
+#include<stdio.h>
+void abc()
+{
+    printf("Hello students\n");
+    printf("Today is a wonderful day\n");
+}
+int main()
+{
+    abc();
+    return 0;
+}
