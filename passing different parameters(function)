@@ -1,0 +1,10 @@
+#include<stdio.h>
+void sample(char name[],int age)
+{
+    printf("My name is %s and my age is %d\n",name,age);
+}
+int main()
+{
+    sample("Peter",22);
+    return 0;
+}
