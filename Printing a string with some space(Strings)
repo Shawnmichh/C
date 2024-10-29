@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<string.h>
+int main()
+{
+    char name[100];
+    printf("Enter a name with in size of 10:");
+    scanf("%s",&name);
+    printf("%20s",name);
+    return 0;
+}
