@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+    int num,sum=0;
+    printf("Enter the number of odd numbers to sum:");
+    scanf("%d",&num);
+    for(int i=1;i<=num;i++)
+    {
+        if(i%2==1)
+        {
+            sum+=i;
+        }    
+        
+    }
+    printf("The sum:%d",sum);
+    return 0;
+}
