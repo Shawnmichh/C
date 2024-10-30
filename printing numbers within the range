@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    int n,m;
+    printf("Enter the first number:");
+    scanf("%d",&n);
+    printf("Enter the end number:");
+    scanf("%d",&m);
+    printf("The number within the range:");
+    while(n<=m)
+    {
+        printf("\n%d",n);
+        n++;
+    }
+    return 0;
+}
