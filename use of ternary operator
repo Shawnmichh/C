@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int mark1,mark2;
+    printf("Mark of student 1:");
+    scanf("%d",&mark1);
+    printf("Mark of student 2:");
+    scanf("%d",&mark2);
+    (mark1>mark2)?printf("Student 1 secured more marks"):printf("Student 2 secured more marks:");
+    return 0;
+}
