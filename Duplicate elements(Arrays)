@@ -1,0 +1,29 @@
+#include<stdio.h>
+int main()
+{
+    int a[50],n,pos;
+    printf("The number of elements in the array:");
+    scanf("%d",&n);
+    printf("Enter the numbers:\n");
+    for(int i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    pos=0;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=i+1;j<n;j++)
+        {
+            if(a[i]==a[j] && i!=j)
+            {
+                pos=1;
+                printf("The duplicate numbers are at %d and %d",i,j);
+            }
+        }
+    }
+    if(pos==0)
+    {
+        printf("\nNo duplicate");
+    }
+    return 0;
+}
