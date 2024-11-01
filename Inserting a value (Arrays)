@@ -17,7 +17,7 @@ int main()
     }
     a[pos]=n;
     n++;
-    printf("\nAfter insertion:%d",n);
+    printf("\nAfter insertion:");
     for(int i=0;i<n;i++)
     {
         printf("\n%d",a[i]);
