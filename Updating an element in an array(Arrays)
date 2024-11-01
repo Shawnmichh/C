@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+    int array[]={22,33,66,55};
+    printf("%d\n",array[3]);
+    array[3]=11;
+    printf("After:\n");
+    printf("%d\n",array[3]);
+    return 0;
+}
